@@ -1,0 +1,79 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#FFF0F5;
+  }
+  header {
+    background-color: #5F9EA0;
+    padding: 10px;
+    text-align: center;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  nav ul li a {
+    color: rgb(194, 19, 19);
+    text-decoration: none;
+    font-size: larger;
+  }
+  h1{
+    color: #8B008B;
+    font-size:xX-large;
+    font-style: italic;
+    }
+    h2{
+        color:#FF69B4;
+        font-style: italic;
+        
+        }
+    h3{
+      font-size: x-large;
+      color: #00BFFF;
+      font-style: italic;
+    }
+  #home, #places, #gallery, #blog, #contact {
+    padding: 20px;
+  }
+  #gallery .gallery-category {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #gallery .gallery-item {
+    width: 30%;
+    margin: 10px;
+  }
+  #gallery img {
+    width: 800px;
+    height: 500px;
+  }
+  #contact input {
+    width: 350px;
+    height: 10px;
+    padding: 10px;
+    color: #4B0082;
+    margin-bottom: 10px;
+  }
+  #contact textarea {
+    width: 490px;
+    height: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  button {
+    background-color: #333;
+    color: rgb(219, 14, 158);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #808080;
+  }
+  
